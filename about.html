@@ -17,20 +17,20 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="index.html"> <img src="img/chuck1.ico"></a>
+        <a class="navbar-brand" href="index.html"> <img src="img/chuck1128.ico"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="beers.html">BEERS <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="beers.html">BEERS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">ABOUT <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="about.html">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="socials.html">SOCIALS <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="socials.html">SOCIALS</a>
             </li>
           </ul>
           <form class="form-inline mt-2 mt-md-0">
@@ -42,16 +42,6 @@
     </header>
 
 
-        </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
 
 
       <!-- Marketing messaging and featurettes
@@ -70,8 +60,8 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">The Legend of Chuck-One:</h2>
-            <h2 span class="text-muted">Middle Fingers & Memories That Linger </span></h2>
+            <center><h2 class="featurette-heading">The Legend of Chuck-One:</h2></center>
+            <center><h2 span class="text-muted">Beers & Middle Fingers</span></h2></center>
             <p class="lead">Also known as The Rock, Chuck-One's story is too long to be told in one sitting. Buy another slab, and sit the hell down. Chuck is the answer to all those trolls in the corner always telling you that you ain't worth nothin'! He is your epic response to your boss on the day you quit work! Chuck is the embodiment of rebellion. He never budges, he never moves, he never hides. What you see is what you get with Chuck. You being pushed into a corner? Chuck-One back at 'em. Your mate needs a glass of concrete? Chuck-One @ 'em. You want a beer that goes down better on a Friday than it does on any other day of the week? It's Chuck-One. Makes no nevermind to me anyhow you get this indehyah.   </p>
           </div>
           <div class="col-md-5">
@@ -83,17 +73,40 @@
         
         <hr class="featurette-divider">
 
-        <hr class="featurette-divider">
-
         <!-- /END THE FEATURETTES -->
 
       </div><!-- /.container -->
+
+      <style>
+.parallax {
+  /* The image used */
+  background-image: url("img/parascroll.png");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+}
+</style>
+
+<!-- Container element -->
+<div class="parallax"></div>
 
 
       <!-- FOOTER -->
       <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>
-        <center><p>&copy; 2020-2021 Chuck One Brewing, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p></center>
+        <center><p>&copy; 2020-2021 Chuck One Brewing, Inc. </p></center>
       </footer>
     </main>
 
